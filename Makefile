@@ -1,0 +1,2 @@
+run: ingest clean analyze
+
