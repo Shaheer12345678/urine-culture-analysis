@@ -1,1 +1,2 @@
-patient_id,order_time,location,indication,uc_result
+patient_id,order_time,location,indication,uc_result
+1,2025-05-01 10:00,ED,dysuria,neg
