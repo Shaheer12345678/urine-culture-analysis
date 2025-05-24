@@ -4,4 +4,8 @@ df = pd.read_csv(src, parse_dates=['order_time'])
 total = len(df)
 pos_rate = (df['uc_result'] == 'pos').mean() if total else 0.0
 by_loc = df.groupby('location').size().to_dict()
-
+
+pathlib.Path(report).parent.mkdir(parents=True, exist_ok=True)
+with open(report, "w") as f:
+    f.write(f"Total orders analyzed: {total}\n")
+    f.write(f"Positive rate: {pos_rate:.2%}\n")
