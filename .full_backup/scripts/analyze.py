@@ -11,4 +11,8 @@ with open(report, "w") as f:
     f.write(f"Positive rate: {pos_rate:.2%}\n")
     f.write("Orders by location:\n")
     for k,v in by_loc.items():
-        f.write(f"  - {k}: {v}\n")
+        f.write(f"  - {k}: {v}\n")
+print(f"[analyze] Wrote report -> {report}")
+
+plt.figure()
+df['order_time'].dt.date.value_counts().sort_index().plot(kind='bar')

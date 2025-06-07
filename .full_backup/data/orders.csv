@@ -1,4 +1,5 @@
 patient_id,order_time,location,indication,uc_result
 1,2025-05-01 10:00,ED,dysuria,neg
 2,2025-05-01 11:00,ED,screen,neg
-3,2025-05-02 08:00,Inpatient,fever,pos
+3,2025-05-02 08:00,Inpatient,fever,pos
+4,2025-05-02 09:00,ED,screen,neg

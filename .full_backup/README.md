@@ -5,4 +5,6 @@ Reproducible pipeline (Make + Python) to explore ordering patterns and simple re
 ## Quickstart
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt
+make run
+```
