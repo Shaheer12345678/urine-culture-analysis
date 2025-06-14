@@ -7,4 +7,6 @@ Reproducible pipeline (Make + Python) to explore ordering patterns and simple re
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 make run
-```
+```
+
+This will run `scripts/ingest.py`, `scripts/clean.py`, and `scripts/analyze.py` and write outputs to `outputs/`.

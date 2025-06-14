@@ -6,4 +6,6 @@ ingest:
 clean:
 \tpython scripts/clean.py outputs/ingested.csv outputs/clean.csv
 
-analyze:
+analyze:
+\tpython scripts/analyze.py outputs/clean.csv outputs/report.txt outputs/plots.png
+

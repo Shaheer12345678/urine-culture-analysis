@@ -15,4 +15,7 @@ with open(report, "w") as f:
 print(f"[analyze] Wrote report -> {report}")
 
 plt.figure()
-df['order_time'].dt.date.value_counts().sort_index().plot(kind='bar')
+df['order_time'].dt.date.value_counts().sort_index().plot(kind='bar')
+plt.title("Orders per day")
+plt.tight_layout()
+plt.savefig(plot)
