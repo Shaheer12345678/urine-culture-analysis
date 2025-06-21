@@ -9,4 +9,6 @@ pip install -r requirements.txt
 make run
 ```
 
-This will run `scripts/ingest.py`, `scripts/clean.py`, and `scripts/analyze.py` and write outputs to `outputs/`.
+This will run `scripts/ingest.py`, `scripts/clean.py`, and `scripts/analyze.py` and write outputs to `outputs/`.
+
+

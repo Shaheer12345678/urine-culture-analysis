@@ -18,4 +18,7 @@ plt.figure()
 df['order_time'].dt.date.value_counts().sort_index().plot(kind='bar')
 plt.title("Orders per day")
 plt.tight_layout()
-plt.savefig(plot)
+plt.savefig(plot)
+print(f"[analyze] Wrote plot -> {plot}")
+
+

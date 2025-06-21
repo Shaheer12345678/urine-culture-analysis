@@ -8,4 +8,5 @@ clean:
 
 analyze:
 \tpython scripts/analyze.py outputs/clean.csv outputs/report.txt outputs/plots.png
-
+
+
